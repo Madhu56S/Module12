@@ -22,8 +22,34 @@ The program allows inserting 3 elements from the user and then prints the **top 
 ---
 
 ## 💻 Program
-Add Code Here
+```
+stack = []
+
+stack.append('a')
+stack.append('b')
+stack.append('c')
+stack.append('d')
+
+print('Initial stack: ' + str(stack))
+
+for i in range(len(stack)):
+    top = stack[i]
+
+print("\nElement at the top of the stack is .... ", top)
+
+stack.pop()
+
+for i in range(len(stack)):
+    top = stack[i]
+
+print("\nAfter removing an element from the stack.")
+print("\nElement at the top of the stack is .... ", top)
+```
 
 ## Output
+<img width="913" height="300" alt="image" src="https://github.com/user-attachments/assets/66e69ba9-669c-4b22-a324-e7447f0aba74" />
+
 
 ## Result
+Thus the output is verified.
+
